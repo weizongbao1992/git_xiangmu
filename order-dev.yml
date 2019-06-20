@@ -26,6 +26,8 @@ server:
   port: 7001
 env:
   dev
+label:
+  haha
   
   
 

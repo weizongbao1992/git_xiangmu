@@ -12,10 +12,10 @@ spring:
 #     name: order 
 #   main:
 #     allow-bean-definition-overriding: true
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka
 #  jackson:
 #    default-property-inclusion: non-null #如果返回前端的json中有一个值为空，就不返回这个值
   

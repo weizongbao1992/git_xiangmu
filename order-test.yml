@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.6.1:3306/weixindiancan?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+  jpa:
+    show-sql: true
+  thymeleaf:
+    prefix: classpath:/templates/
+  application:
+    name: order 
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+#  jackson:
+#    default-property-inclusion: non-null #如果返回前端的json中有一个值为空，就不返回这个值
+  
+ribbon:
+  eureka:
+    enabled: true  
+server:
+  port: 7001
+env:
+  test
+  
+

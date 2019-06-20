@@ -8,10 +8,10 @@ spring:
     show-sql: true
   thymeleaf:
     prefix: classpath:/templates/
-  application:
-    name: order 
-  main:
-    allow-bean-definition-overriding: true
+#   application:
+#     name: order 
+#   main:
+#     allow-bean-definition-overriding: true
 eureka:
   client:
     service-url:

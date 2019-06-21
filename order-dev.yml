@@ -21,7 +21,7 @@ ribbon:
 server:
   port: 7001
 env:
-  dev
+  dev22222222
 label:
   haha
   

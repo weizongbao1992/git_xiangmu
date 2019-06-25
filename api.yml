@@ -1,0 +1,14 @@
+env: dev1
+ribbon:
+  eureka:
+    enabled: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://192.168.6.1:3306/weixindiancan?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+  jpa:
+    show-sql: true
+  thymeleaf:
+    prefix: classpath:/templates/
